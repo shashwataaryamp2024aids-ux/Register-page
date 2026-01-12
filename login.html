@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Grand Register Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Grand Register Portal</h1>
+        <p>Authorized Access Only</p>
+    </header>
+
+    <main>
+        <section class="form-box">
+            <h2>Login</h2>
+
+            <form onsubmit="loginUser(); return false;">
+                <label>Username</label>
+                <input type="text" id="username" placeholder="Enter username" required>
+
+                <label>Password</label>
+                <input type="password" id="password" placeholder="Enter password" required>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <div class="hint">
+                <p><strong>Demo Credentials</strong></p>
+                <p>Username: admin</p>
+                <p>Password: admin</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Grand Register Portal</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
